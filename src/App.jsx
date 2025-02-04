@@ -91,7 +91,7 @@ function App() {
                     path: "Tarefas",
                     element: <Tarefas/>,
                 },
-                {
+                //{
                     path: "ConvertorImage",
                     element: <ConvertorImage/>,
                     children: [
