@@ -28,19 +28,19 @@ function App() {
             element: <Ladingpage />,
             },
         {
-            path: "/login",
+            path: "/MFSadv/login",
             element: <Login />,
         },
         {
-            path: "/registrar",
+            path: "/MFSadv/registrar",
             element: <Registrar />,
         },
         {
-            path: "/Modelosprocessuais",
+            path: "/MFSadv/Modelosprocessuais",
             element: <Modelosaberto />,
         },
         {
-            path: "/dashboard",
+            path: "/MFSadv/dashboard",
             element: <Layout />,
             children: [
                 {
@@ -91,16 +91,16 @@ function App() {
                     path: "Tarefas",
                     element: <Tarefas/>,
                 },
-                {
-                    path: "ConvertorImage",
-                    element: <ConvertorImage/>,
-                    children: [
-                        {
-                            path: "Thank",
-                            element: <ThankYouPage/>,
-                        },
-                    ],
-                },
+                //{
+                 //   path: "ConvertorImage",
+                 //   element: <ConvertorImage/>,
+                 //   children: [
+                  //      {
+                  //          path: "Thank",
+                  //          element: <ThankYouPage/>,
+                   //     },
+                 //   ],
+             //   },
                 {
                     path: "Ia-pecas",
                     element: <h1 className="title">Ia de Criação de Peças Processuais</h1>,
@@ -119,6 +119,13 @@ function App() {
                 },
             ],
         },
+        {
+  path: "/_vercel/insights/script.js",
+  element: () => {
+    console.log("Rota do script de análise carregada corretamente");
+    return <script src="https://vercel.com/analytics/script.js" />;
+  },
+}
     ]);
 
     return (
