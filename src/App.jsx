@@ -92,15 +92,15 @@ function App() {
                     element: <Tarefas/>,
                 },
                 //{
-                    path: "ConvertorImage",
-                    element: <ConvertorImage/>,
-                    children: [
-                        {
-                            path: "Thank",
-                            element: <ThankYouPage/>,
-                        },
-                    ],
-                },
+                 //   path: "ConvertorImage",
+                 //   element: <ConvertorImage/>,
+                 //   children: [
+                  //      {
+                  //          path: "Thank",
+                  //          element: <ThankYouPage/>,
+                   //     },
+                 //   ],
+             //   },
                 {
                     path: "Ia-pecas",
                     element: <h1 className="title">Ia de Criação de Peças Processuais</h1>,
