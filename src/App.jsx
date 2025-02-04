@@ -119,13 +119,8 @@ function App() {
                 },
             ],
         },
-        {
-  path: "/_vercel/insights/script.js",
-  element: () => {
-    console.log("Rota do script de análise carregada corretamente");
-    return <script src="https://vercel.com/analytics/script.js" />;
-  },
-}
+        
+
     ]);
 
     return (
