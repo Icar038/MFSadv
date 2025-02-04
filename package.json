@@ -26,7 +26,7 @@
     "@syncfusion/ej2-base": "^28.1.33",
     "@syncfusion/ej2-react-kanban": "^28.1.39",
     "@uidotdev/usehooks": "^2.4.1",
-    "@vercel/analytics": "^1.4.1",
+  
     "axios": "^1.7.9",
     "busca-processos-judiciais": "^1.0.3",
     "clsx": "^2.1.1",
