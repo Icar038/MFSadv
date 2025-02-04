@@ -28,19 +28,19 @@ function App() {
             element: <Ladingpage />,
             },
         {
-            path: "/login",
+            path: "/MFSadv/login",
             element: <Login />,
         },
         {
-            path: "/registrar",
+            path: "/MFSadv/registrar",
             element: <Registrar />,
         },
         {
-            path: "/Modelosprocessuais",
+            path: "/MFSadv/Modelosprocessuais",
             element: <Modelosaberto />,
         },
         {
-            path: "/dashboard",
+            path: "/MFSadv/dashboard",
             element: <Layout />,
             children: [
                 {
